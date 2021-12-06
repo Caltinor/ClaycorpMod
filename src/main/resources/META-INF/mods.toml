@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[38,)"
+license="Public Domain"
+
+[[mods]]
+modId="claycorp"
+version="${file.jarVersion}" 
+displayName="Claycorp Mod" 
+logoFile="examplemod.png" 
+credits="Thanks to Claycorp#7868 for being the community admin that you are."
+authors="Caltinor"
+description='''
+This is a tribute mod to a community admin for CurseForge who deserves a great deal of recognition.
+
+This mod exemplifies his long held pfp of a person trying to cut bread with a doorstop (which is a clip from tv ad).
+
+Like many users that community admins deal with sometimes you feel like you are working with people who really are 
+just trying to cut bread with a doorstop, and so for all of the times that has happened to Claycorp, this is for you.'''
+
+[[dependencies.claycorp]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[38,)" 
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.claycorp]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18,1.19)"
+    ordering="NONE"
+    side="BOTH"
